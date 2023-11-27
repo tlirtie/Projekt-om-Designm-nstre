@@ -5,7 +5,8 @@ Vi har valgt at udvikle et program, som skal hjælpe elever fra 0-3. klasse i gr
 
 **Valg af designmønstre:**
 Vi har valgt at bruge designmønstret ”Strategy” til at håndtere de fire forskellige matematiske opgaver i vores program, nemlig addition, subtraktion, multiplikation og division. Vi vil oprette en overordnet klasse kaldet ”MatematikOperation”, som har fire underordnede objekter kaldet ”Addition”, ”Subtraktion”, ”Multiplikation” og ”Division”. Disse vil hver især være ansvarlige for at sammenligne brugerens svar, som input, med det korrekte svar. Vi kan derfor også lave et klassediagram som visualiserer dette.
-![image](https://github.com/tlirtie/Projekt-om-Designm-nstre/assets/142231651/d20c89c1-b142-4ea8-8343-401cdb2df6fc)
+![image](https://github.com/tlirtie/Projekt-om-Designm-nstre/assets/142231651/c0f90649-b2af-4918-b911-bdf980c6d47b)
+
 
 **Programmering af designmønstre:**
 
