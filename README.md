@@ -4,7 +4,8 @@
 Vi har valgt at udvikle et program, som skal hjælpe elever fra 0-3. klasse i grundskolen med basal matematik, såsom addition, subtraktion, multiplikation og division. Vores program skal helst forblive relativt simpelt og brugervenligt, og eleverne skal gerne kunne bruge programmet til at træne deres matematikfærdigheder.
 
 **Valg af designmønstre:**
-Vi har valgt at bruge designmønstret ”Strategy” til at håndtere de fire forskellige matematiske opgaver i vores program, nemlig addition, subtraktion, multiplikation og division. Vi vil oprette en overordnet klasse kaldet ”MatematikOperation”, som har fire underordnede objekter kaldet ”Addition”, ”Subtraktion”, ”Multiplikation” og ”Division”. Disse vil hver især være ansvarlige for at sammenligne brugerens svar, som input, med det korrekte svar.
+Vi har valgt at bruge designmønstret ”Strategy” til at håndtere de fire forskellige matematiske opgaver i vores program, nemlig addition, subtraktion, multiplikation og division. Vi vil oprette en overordnet klasse kaldet ”MatematikOperation”, som har fire underordnede objekter kaldet ”Addition”, ”Subtraktion”, ”Multiplikation” og ”Division”. Disse vil hver især være ansvarlige for at sammenligne brugerens svar, som input, med det korrekte svar. Vi kan derfor også lave et klassediagram som visualiserer dette.
+![image](https://github.com/tlirtie/Projekt-om-Designm-nstre/assets/142231651/d20c89c1-b142-4ea8-8343-401cdb2df6fc)
 
 **Programmering af designmønstre:**
 
@@ -12,6 +13,7 @@ Koden til vores Strategy-designmønster kan ses her:
 ![image](https://github.com/tlirtie/Projekt-om-Designm-nstre/assets/142231651/b1d9cd97-ceda-4a6d-b5db-bb10ec8565d7)
 
 Her er ”MatematikOperation” den overordnede klasse, og de specifikke matematiske operationer som f.eks. ”Addition” eller ”Multiplikation” er underordnede objekter til klassen ”MatematikOperation”. På den måde har vi overholdt Strategy-Designmønstret. Derudover kan vi også se at visse af de matematiske operationer har nogle krav som skal overholdes når der genereres et nyt spørgsmål. Et billede af dette er vedhæftet her:
+
  ![image](https://github.com/tlirtie/Projekt-om-Designm-nstre/assets/142231651/9eb6da01-cbc5-4d03-a8fb-5a455a4d3047)
 ![image](https://github.com/tlirtie/Projekt-om-Designm-nstre/assets/142231651/f4b60f0b-ae59-4dc5-979c-b8377e97c519)
 
